@@ -812,7 +812,7 @@ function randomVerbFirst(){
   var futPerP3PEngn = perfectSubjectPl[2][1] + "will have been " + verbArrayFirst[randomVerbIndexFirst][7];
 
 
-  var futPerPVerb = [[futPerP1S,futPerP1SEng],[futPerP2S,futPerP2SEng], [futPerP3Sm, futPerP3SEngm], [futPerP3Sf, futPerP3SEngf],[futPerP3Sn, futPerP3SEngn],[futPerP1P,futPerP1PEng],[futPerP2P,pluP2PEng], [futPerP3Pm, futPerP3PEngm],[futPerP3Pf, futPerP3PEngf],[futPerP3Pn, futPerP3PEngn]];
+  var futPerPVerb = [[futPerP1S,futPerP1SEng],[futPerP2S,futPerP2SEng], [futPerP3Sm, futPerP3SEngm], [futPerP3Sf, futPerP3SEngf],[futPerP3Sn, futPerP3SEngn],[futPerP1P,futPerP1PEng],[futPerP2P,futPerP2PEng], [futPerP3Pm, futPerP3PEngm],[futPerP3Pf, futPerP3PEngf],[futPerP3Pn, futPerP3PEngn]];
   //var ranVerbIndex = Math.floor(Math.random() * ranVerbIndex.length);
 
   shuffle(futPerPVerb);
